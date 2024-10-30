@@ -3,7 +3,7 @@ class Database{
     private $host = "localhost";
     private $usuario = "root";
     private $senha = "";
-    private $banco = "blog";
+    private $banco = "";
     private $porta = "3306"; //verificar a porta do seu banco
     private $dbh;
     private $stmt;
@@ -79,4 +79,4 @@ class Database{
         return $this->dbh->lastInsertId();
     }//fim da função ultimoIdInserido
 
-}//fim da classe Database
+}
