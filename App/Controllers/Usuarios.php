@@ -8,6 +8,14 @@ class Usuarios extends Controller{
         'confirmar_senha' =>FILTER_DEFAULT
        ]);
 
-        $this->view('usuarios/cadastrar');
+        $this->view('usuario/cadastro');
     }//fim da função cadastar
+    public function login(){
+        $formulario = filter_input_array(INPUT_POST,[
+         'email'=> FILTER_SANITIZE_EMAIL, // para garantir que o email seja válido,
+         'senha' => FILTER_DEFAULT,
+        ]);
+ 
+         $this->view('usuario/login');
+     }//fim da função cadastar
 }//fim da classe Usuarios

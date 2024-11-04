@@ -12,7 +12,7 @@ class Paginas extends Controller{
                  orientado a objetos com MVC'];
      $this->view('pagina/sobre', $dados);
     }
-
+    
 }//fim da classe Paginas
 
 ?>

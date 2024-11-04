@@ -16,10 +16,12 @@
         </form>
 
         <div class="register-link">
-            <form action="cadastro.php" method="GET">
-                <button type="submit" class="button button-register">Cadastre-se</button>
+            <form action="" method="GET">
+                <a href="<?=URL?>/usuarios/cadastrar">
+                <button type="submit" class="button button-register" >Cadastre-se</button>
+                </a>
             </form>
-            <p>Já possui uma conta? <a href="login.php">Login</a></p>
+            <p>Já possui uma conta? <a href="<?=URL?>/usuarios/login">Login</a></p>
         </div>
     </div>
 </body>
