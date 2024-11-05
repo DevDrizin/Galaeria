@@ -28,7 +28,7 @@
                     <input type="submit" value="Cadastrar" class="btn btn-info btn-block">
                 </div>
                 <div class="col">
-                    <a href="#">Você tem uma conta? Faça login</a>
+                    <a href="<?=URL?>/usuarios/login">Você tem uma conta? Faça login</a>
                 </div>
             </div>
             </form>

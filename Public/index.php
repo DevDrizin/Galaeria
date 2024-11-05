@@ -1,8 +1,6 @@
 <?php
 include "./../App/configuracao.php";
 include "./../App/autoload.php";
-include "./../Views/home.php";
-
 
 /*
 $db = new Database;
@@ -67,7 +65,7 @@ echo '<hr>Último ID: '.$db->ultimoIdInserido();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?=APP_NOME?></title>
-    <link rel="stylesheet" type="text/css" href="<?=URL?>/public/css/home.css"/>
+    <link rel="stylesheet" type="text/css" href="<?=URL?>/public/css/home2.css"/>
     <link rel="stylesheet" type="text/css" href="<?=URL?>/public/css/login.css"/>
     <link rel="stylesheet" type="text/css" href="<?=URL?>/public/bootstrap/css/bootstrap.css"/>
 </head>
@@ -76,7 +74,6 @@ echo '<hr>Último ID: '.$db->ultimoIdInserido();
     include "../App/Views/header.php";
     $rotas = new Rota();
    // $rotas->url();
-    include "../App/Views/footer.php";
     ?>
     <script src="<?=URL?>/public/bootstrap/js/bootstrap.js"></script>
     <script src="<?=URL?>/public/js/query.js"></script>
