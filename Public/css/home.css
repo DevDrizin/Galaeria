@@ -90,30 +90,6 @@ body {
 
 
   /* Formas com gradiente*/
-  body::before,
-  body::after {
-    content: '';
-    position: absolute;
-    border-radius: 50%;
-    opacity: 0.8;
-    z-index: -1;
-  }
-  
-  body::before {
-    width: 550px;
-    height: 550px;
-    top: -275px;
-    left: -275px;
-    background: radial-gradient(circle, rgba(96, 177, 173, 0.8) 0%, rgba(235, 121, 95, 0) 70%);
-  }
-  body::after {
-    width: 550px;
-    height: 550px;
-    bottom: -260px;
-    right: -275px;
-    background: radial-gradient(circle, rgba(96, 177, 173, 0.8) 0%, rgba(235, 121, 95, 0) 70%);
-  }
-  
   
   img {
     max-width: 900px; 

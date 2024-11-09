@@ -67,6 +67,7 @@ echo '<hr>Último ID: '.$db->ultimoIdInserido();
     <title><?=APP_NOME?></title>
     <link rel="stylesheet" type="text/css" href="<?=URL?>/public/css/home.css"/>
     <link rel="stylesheet" type="text/css" href="<?=URL?>/public/css/login2.css"/>
+    <link rel="stylesheet" type="text/css" href="<?=URL?>/public/css/categoria.css"/>
     <link rel="stylesheet" type="text/css" href="<?=URL?>/public/bootstrap/css/bootstrap.css"/>
 </head>
 <body>
@@ -77,5 +78,7 @@ echo '<hr>Último ID: '.$db->ultimoIdInserido();
     ?>
     <script src="<?=URL?>/public/bootstrap/js/bootstrap.js"></script>
     <script src="<?=URL?>/public/js/query.js"></script>
+    <script src="<?=URL?>/public/view/script.js"></script>
+    
 </body>
 </html>

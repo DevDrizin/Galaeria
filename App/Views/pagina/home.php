@@ -23,8 +23,9 @@
     <div class="image">
             <img src="images/home.png" alt="Descrição da imagem" class="background-image">
         </div>
-      
+ 
 
 </body>
+
    
 </html>
