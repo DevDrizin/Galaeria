@@ -17,17 +17,28 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
-    border-bottom: 1px solid #ccc;
-    width: auto;
+    margin-top: 16px;
+    
     margin-bottom: 20px;
-    width: 140vh;
+    width: 150vh;
+}
+
+.borda{
+
+    border-bottom: 1px solid #000000;
+    width: 210vh;
+    position:relative;
+    top:4px;
+
+
 }
 
 .nav-links a {
     margin-right: 15px;
     text-decoration: none;
     color: #000;
-    font-size: 18px;
+    font-size: 20px;
+   
 }
 
 .search-container {
@@ -38,14 +49,16 @@ body {
 }
 
 .search-container input {
-    width: 90%;
+    width:180%;
     padding: 8px 35px 8px 10px;
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 4vh;
     background-color: #f0f8ff;
-}
+    margin-right: 7vh;
 
+
+}
 .icon-search {
     position: absolute;
     right: 10px;
@@ -53,6 +66,8 @@ body {
     transform: translateY(-50%);
     width: 20px;
     height: 20px;
+    margin-right: 40px;
+    z-index: 1;
 }
 
 .icon-container {
@@ -72,11 +87,13 @@ body {
     align-items: center;
     padding: 10px 20px;
     margin-left: 5vh;
+    margin-top: 30px;
 
 }
 .preferences span {
     font-weight: bold;
-    margin-right: auto;
+    
+
 }
 
 .tag {
@@ -86,8 +103,9 @@ body {
     border-radius: 20px;
     display:inline-block;
     align-items: center;
-    margin-right: 20px;
+    margin-right: px;
     font-size: 14px;
+    margin-left: 8px;
 }
 
 .close-btn {

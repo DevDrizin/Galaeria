@@ -14,23 +14,30 @@
         <a href="#">Obras</a>
         <a href="#">Artistas</a>
     </div>
-    
+   
+       
     <div class="search-container">
-        <input type="text" placeholder="Buscar...">
-        <img src="images/lupa.png" alt="Lupa" class="icon-search">
+    <img src="<?=URL?>/images/lupa.png" alt="Lupa" class="icon-search">
+        <input type="text" placeholder="Buscar..."/>
+
+       
     </div>
     
     <div class="icon-container">
-        <img src="images/chat.png" alt="Chat" class="icon">
-        <img src="images/carrinho.png" alt="Carrinho" class="icon">
-        <img src="images/perfil.png" alt="Perfil" class="icon">
+        <img src="<?=URL?>/images/chat.png" alt="Chat" class="icon">
+        <img src="<?=URL?>/images/carrinho.png" alt="Carrinho" class="icon">
+        <img src="<?=URL?>/images/perfil.png" alt="Perfil" class="icon">
     </div>
+   
 </header>
 
-<!-- Conteúdo Principal -->
+
+<div class='borda'></div>
+
+
 <main>
     <div class="preferences">
-       Preferências:
+       <span>Preferências:</span>
         <div class="tag">Publicidade <span class="close-btn" onclick="removeTag(this)">✖</span></div>
         <div class="tag">Ilustrações <span class="close-btn" onclick="removeTag(this)">✖</span></div>
         <div class="tag">Logotipos <span class="close-btn" onclick="removeTag(this)">✖</span></div>

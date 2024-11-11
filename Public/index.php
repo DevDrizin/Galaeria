@@ -78,7 +78,7 @@ echo '<hr>Último ID: '.$db->ultimoIdInserido();
     ?>
     <script src="<?=URL?>/public/bootstrap/js/bootstrap.js"></script>
     <script src="<?=URL?>/public/js/query.js"></script>
-    <script src="<?=URL?>/public/view/script.js"></script>
+    <script src="<?=URL?>/public/js/script.js"></script>
     
 </body>
 </html>
