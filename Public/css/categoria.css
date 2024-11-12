@@ -20,13 +20,13 @@ body {
     margin-top: 16px;
     
     margin-bottom: 20px;
-    width: 150vh;
+    width: 160vh;
 }
 
 .borda{
 
-    border-bottom: 1px solid #000000;
-    width: 210vh;
+    border-bottom: 1px solid #C8E1F2;
+    width: 220vh;
     position:relative;
     top:4px;
 
@@ -36,26 +36,53 @@ body {
 .nav-links a {
     margin-right: 15px;
     text-decoration: none;
-    color: #000;
+    color: #538FB7;
     font-size: 20px;
-   
+    font-weight: 500;
+    position: relative; /* Necessário para posicionar o pseudo-elemento */
+  }
+  
+  .nav-links a::before {
+    content: "";
+    position: absolute;
+    bottom: -2px; /* Ajustar a posição conforme necessário */
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .nav-links a:hover::before {
+    background-color: #538FB7; /* Cor do hover */
+  }
+
+
+.nav-links a:nth-child(2) {
+    margin-left: 40px; /* Ajuste o valor conforme necessário */
 }
 
 .search-container {
     position: relative;
     flex: 1;
     max-width: 400px;
-    margin: 0 20px;
+
+    margin-left: 30px;
+}
+
+.nav-links a:first-child {
+    margin-left: -17vh; 
+    margin-right: 5vh;
 }
 
 .search-container input {
-    width:180%;
+    width:170%;
     padding: 8px 35px 8px 10px;
     font-size: 16px;
-    border: 1px solid #ccc;
+    border: none;
     border-radius: 4vh;
-    background-color: #f0f8ff;
-    margin-right: 7vh;
+    background-color:#C8E1F2;
+    margin-left: -24vh;
 
 
 }
@@ -66,20 +93,41 @@ body {
     transform: translateY(-50%);
     width: 20px;
     height: 20px;
-    margin-right: 40px;
+    margin-right: -15vh;
     z-index: 1;
 }
 
 .icon-container {
     display: flex;
-    gap: 15px;
+    gap: 15px; /* Espaçamento entre as boxes */
+    
+}
+
+.icon-box {
+    width: 38px; /* Largura do quadrinho */
+    height: 38px; /* Altura do quadrinho */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#C8E1F2; /* Cor de fundo da box */
+    border-radius: 8px; /* Cantos arredondados */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-sizing: border-box; /* Garante que padding e border não afetem o tamanho */
+  
+}
+
+.icon-box:hover {
+    background-color: #e0e0e0; /* Cor ao passar o mouse */
 }
 
 .icon {
-    width: 24px;
+    width: 24px; /* Tamanho do ícone */
     height: 24px;
-    cursor: pointer;
+    z-index: 1; /* Garante que o ícone esteja na frente */
+   
 }
+
 
 /* Estilo das Preferências */
 .preferences {
@@ -87,26 +135,41 @@ body {
     align-items: center;
     padding: 10px 20px;
     margin-left: 5vh;
-    margin-top: 30px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+
+
 
 }
+
 .preferences span {
     font-weight: bold;
+   
     
 
 }
 
 .tag {
-    background-color: #e0e0e0;
+    background-color: #f0f0f0;
     color: #333;
     padding: 5px 10px;
     border-radius: 20px;
     display:inline-block;
     align-items: center;
-    margin-right: px;
+    margin-right: 17px;
     font-size: 14px;
-    margin-left: 8px;
+    margin-left: 17px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
 }
+
+.tag:hover {
+    background-color:#C8E1F2/* Change background color on hover */
+    
+  }
+  
+ 
 
 .close-btn {
     margin-left: 5px;
@@ -157,7 +220,7 @@ body {
 
 /* Estilo do Rodapé */
 .footer {
-    background-color: #f0f8ff;
+    background-color: #C8E1F2;
     text-align: center;
     padding: 15px;
     border-top: 1px solid #ccc;

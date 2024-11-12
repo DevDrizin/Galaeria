@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site de Obras</title>
-    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
 
@@ -22,12 +22,12 @@
 
        
     </div>
-    
     <div class="icon-container">
-        <img src="<?=URL?>/images/chat.png" alt="Chat" class="icon">
-        <img src="<?=URL?>/images/carrinho.png" alt="Carrinho" class="icon">
-        <img src="<?=URL?>/images/perfil.png" alt="Perfil" class="icon">
-    </div>
+    <div class="icon-box"> <img src="<?=URL?>/images/chat.png" alt="Chat" class="icon"> </div>
+    <div class="icon-box"> <img src="<?=URL?>/images/carrinho.png" alt="Carrinho" class="icon"> </div> 
+    <div class="icon-box"> <img src="<?=URL?>/images/perfil.png" alt="Perfil" class="icon"> </div>
+</div>
+ 
    
 </header>
 
