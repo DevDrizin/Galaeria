@@ -63,7 +63,7 @@
 
 <!-- Rodapé -->
 <footer class="footer">
-    <p>&copy; 2024 Galeria - Integrantes: Adriano, Antonio, Alliny, Ana Julia e Victória</p>
+    <p>&copy; 2024 Galeria - Integrantes: Adriano, Antonio, Alliny, Ana Júlia e Victória</p>
 </footer>
 
 <script src="script.js"></script>
