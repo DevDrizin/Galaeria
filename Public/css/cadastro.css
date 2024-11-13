@@ -1,0 +1,203 @@
+/* Gradiente de fundo */
+body {
+    background: linear-gradient(135deg, #a8e0e9, #d4f2f7); /* Gradiente suave */
+    font-family: 'Arial', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Prevenir rolagem */
+}
+
+/* Adicionar uma imagem de fundo (opcional) */
+body {
+   
+    background-size: cover;
+    background-position: center;
+}
+
+/* Decorar a página com círculos e formas geométricas */
+.circle-decorator {
+    position: absolute;
+    top: -150px; /* Colocar acima do formulário */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.square-decorator {
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(23, 162, 184, 0.3);
+    transform: rotate(45deg);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+/* Estilos gerais do body */
+body {
+    background: linear-gradient(135deg, #a8e0e9, #d4f2f7); /* Gradiente suave de fundo */
+    font-family: 'Arial', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Centraliza a coluna do formulário */
+.col-xl-4, .col-md-6 {
+    margin-top: 50px; /* Espaço superior */
+    margin-bottom: 50px; /* Espaço inferior */
+}
+
+/* Estilo do card/formulário */
+.card {
+    background-color: white; /* Fundo branco para o card */
+    border: none; /* Remover bordas padrões */
+    border-radius: 15px; /* Bordas arredondadas */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra suave para o card */
+    
+
+   width: 450px; /* Largura máxima do card */
+    transition: transform 0.3s ease-in-out; /* Efeito de transição ao passar o mouse */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Efeito de flutuar ao passar o mouse */
+}
+
+/* Cabeçalho do card */
+.card-header {
+    background-color: #17a2b8; /* Cor de fundo azul */
+    color: white;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombras suaves */
+}
+
+/* Corpo do card */
+.card-body {
+    padding: 0;
+}
+
+/* Texto de descrição do formulário */
+.card-text small {
+    font-style:normal;
+    color: #6c757d; /* Cor de texto secundário */
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo para os inputs do formulário */
+.form-group label {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #495057;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.form-group input:focus {
+    border-color: #17a2b8;
+    box-shadow: 0 0 5px rgba(23, 162, 184, 0.5);
+    outline: none;
+}
+
+/* Para campos obrigatórios, usa-se asterisco vermelho */
+sup.text-danger {
+    font-size: 1.2rem;
+}
+
+/* Botão de cadastro */
+.btn-info {
+   
+    width: 100px;
+    margin-top: 40px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-size: 1.5rem;
+    margin-left:-10vh;
+    margin-bottom: 3vh;
+}
+
+.btn-info:focus {
+    background-color: #5E7095; /* Cor de fundo quando o botão está marcado */
+    color: #fff;               /* Cor do texto */
+    outline: none;             /* Remove a borda de foco padrão */
+}
+.btn-info:active {
+    background-color: #5E7095; /* Cor de fundo quando o botão é pressionado */
+    color: #fff;               /* Cor do texto */
+    transform: scale(0.98);    /* Efeito de pressionado */
+}
+
+
+h1 {
+
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+/* Links de navegação */
+a {
+    color: #17a2b8;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #138496;
+}
+
+/* Colunas do botão de cadastro e link */
+.row {
+    margin-top: 20px;
+}
+
+.col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer {
+    background-color: #C8E1F2;
+    text-align: center;
+    padding: 15px;
+    border-top: 1px solid #ccc;
+    margin-top: auto; /* Empurra o rodapé para o final da página */
+}
+
+.footer p {
+    color: #666;
+    font-size: 14px;
+    width: 250vh;
+    height: 40px;
+   
+}

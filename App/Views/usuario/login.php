@@ -1,12 +1,5 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="login2.css">
-</head>
-<body>
+
+
     <div class="login-container">
         <h2>Faça seu Login</h2>
         <form action="login.php" method="POST">
@@ -20,5 +13,3 @@
             <a href="recuperar_senha.php">Esqueceu sua senha?</a>
         </form>
     </div>
-</body>
-</html>

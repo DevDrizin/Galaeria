@@ -68,6 +68,7 @@ echo '<hr>Último ID: '.$db->ultimoIdInserido();
     <link rel="stylesheet" type="text/css" href="<?=URL?>/public/css/home.css"/>
     <link rel="stylesheet" type="text/css" href="<?=URL?>/public/css/login2.css"/>
     <link rel="stylesheet" type="text/css" href="<?=URL?>/public/css/categoria.css"/>
+    <link rel="stylesheet" type="text/css" href="<?=URL?>/public/css/cadastro.css"/>
     <link rel="stylesheet" type="text/css" href="<?=URL?>/public/bootstrap/css/bootstrap.css"/>
 </head>
 <body>
