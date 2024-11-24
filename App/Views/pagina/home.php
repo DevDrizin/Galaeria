@@ -1,3 +1,4 @@
+<link rel="stylesheet" type="text/css" href="<?=URL?>/public/css/home.css"/>
 
 <div class="main-container">
     <h2>Como você deseja entrar?</h2>
