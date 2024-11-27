@@ -151,10 +151,10 @@ body {
 
 /* ====================== BORDAS ====================== */
 .borda {
-  border-bottom: 1px solid #C8E1F2;
+  border-bottom: 2px solid #C8E1F2;
   width: 100%;
   position: relative;
-  top: 4px;
+  top: 0px;
 }
 
 /* ====================== PREFERÊNCIAS ====================== */

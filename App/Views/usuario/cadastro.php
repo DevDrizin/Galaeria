@@ -1,4 +1,4 @@
-<link rel="stylesheet" type="text/css" href="<?=URL?>/public/css/login.css"/>
+<link rel="stylesheet" type="text/css" href="<?=URL?>/public/css/login1.css"/>
 
 <!-- Formulário de Cadastro -->
 <h1>Crie sua conta</h1>

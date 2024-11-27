@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site de Obras</title>
-    <link rel="stylesheet" type="text/css" href="<?=URL?>/Public/css/categoria2.css"/>
+    <link rel="stylesheet" type="text/css" href="<?=URL?>/Public/css/categoria3.css"/>
 </head>
 <body>
 
 <!-- Cabeçalho -->
 <header class="navbar">
     <div class="nav-links">
-        <a href="#">Obras</a>
-        <a href="#">Artistas</a>
+        <a href="<?=URL?>/pagina/obra">Obras</a>
+        <a href="<?=URL?>/pagina/artista">Artistas</a>
     </div>
        
     <div class="search-container">

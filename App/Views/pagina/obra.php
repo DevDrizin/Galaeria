@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site de Obras</title>
-    <link rel="stylesheet" type="text/css" href="<?=URL?>/public/css/categoria2.css"/>
+    <link rel="stylesheet" type="text/css" href="<?=URL?>/Public/css/categoria3.css"/>
 </head>
 <body>
 
 <!-- Cabeçalho -->
 <header class="navbar">
     <div class="nav-links">
-        <a href="<?=URL?>/pagina/obras">Obras</a>
-        <a href="<?=URL?>/pagina/artistas">Artistas</a>
+        <a href="<?=URL?>/pagina/obra">Obras</a>
+        <a href="<?=URL?>/pagina/artista">Artistas</a>
     </div>
    
     <div class="search-container">
@@ -36,6 +36,11 @@
     <div class="obra-info">
         <h2>A calma jornada</h2>
         <p id="descricao-curta">
+            
+<!-- Página -->
+<div class='borda'></div>
+
+
             É uma obra de arte digital inspirada nas paisagens do Studio Ghibli, famoso estúdio de animação japonês conhecido...
             <span class="leia-mais" onclick="expandirTexto()">Leia mais.</span>
         </p>
@@ -96,6 +101,6 @@
     <p>&copy; 2024 Galeria - Integrantes: Adriano, Antonio, Alliny, Ana Júlia e Victória</p>
 </footer>
 
-<script src="script.js"></script>
+<script src="<?=URL?>/Public/js/script.js"></script>
 </body>
 </html>

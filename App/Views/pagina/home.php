@@ -15,7 +15,7 @@
         </div>
     </div>
     <div class="image">
-            <img src="images/home.png" alt="Descrição da imagem" class="background-image">
+            <img src="<?=URL?>/Public/images/home.png" alt="Descrição da imagem" class="background-image">
         </div>
  
     
